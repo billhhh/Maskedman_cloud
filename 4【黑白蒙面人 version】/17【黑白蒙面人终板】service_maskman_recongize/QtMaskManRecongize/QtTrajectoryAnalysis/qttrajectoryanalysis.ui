@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtTrajectoryAnalysisClass</class>
+ <widget class="QDialog" name="QtTrajectoryAnalysisClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1080</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1080</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1080</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>QtMaskManRec</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="qttrajectoryanalysis.qrc">
+    <normaloff>:/QtTrajectoryAnalysis/Resources/maskManDetect.ico</normaloff>:/QtTrajectoryAnalysis/Resources/maskManDetect.ico</iconset>
+  </property>
+  <widget class="QWidget" name="widget_background" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1080</width>
+     <height>720</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget_background{border-image: url(:/QtTrajectoryAnalysis/Resources/background.png)}</string>
+   </property>
+   <widget class="QProgressBar" name="progress_bar">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>470</y>
+      <width>480</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> QProgressBar{
+font: 75 10pt &quot;微软雅黑&quot;;
+color: #ffffff;
+border-radius:2px;
+	background-color:#156079;
+}
+QProgressBar::chunk {
+	background-color: rgb(52, 52, 52);
+    border-bottom:1px solid gray;
+}</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lEd_OutputFolder">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>510</y>
+      <width>380</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">text-indent:5px;
+font: 11pt &quot;微软雅黑&quot;;
+color: #403e3e;
+background-color: #ffffff;</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="imageView">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>480</width>
+      <height>360</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/QtTrajectoryAnalysis/Resources/bottomOfImage.png);</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>-170</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;事件信息：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pBtn_OutputFolder">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>510</y>
+      <width>102</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/QtTrajectoryAnalysis/Resources/savePath.png);}
+QPushButton:hover{border-image: url(:/QtTrajectoryAnalysis/Resources/savePath-hover.png);}
+QPushButton:pressed{border-image: url(:/QtTrajectoryAnalysis/Resources/savePath-pressed.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>943</x>
+      <y>48</y>
+      <width>109</width>
+      <height>19</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/QtTrajectoryAnalysis/Resources/maskManDetectLogo.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="pBtn_Run">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>610</y>
+      <width>80</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{border-image: url(:/QtTrajectoryAnalysis/Resources/play.png);}
+QToolButton:hover{border-image: url(:/QtTrajectoryAnalysis/Resources/play-hover.png);}
+QToolButton:pressed{border-image: url(:/QtTrajectoryAnalysis/Resources/play-pressed.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>:/QtTrajectoryAnalysis/Resources/startanalyze.png</normaloff>:/QtTrajectoryAnalysis/Resources/startanalyze.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextUnderIcon</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pBtn_minimize">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/QtTrajectoryAnalysis/Resources/minimize.png);}
+QPushButton:hover{border-image: url(:/QtTrajectoryAnalysis/Resources/minimize-mouse.png);}
+QPushButton:pressed{border-image: url(:/QtTrajectoryAnalysis/Resources/minimize-mouse.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pBtn_exit">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>10</y>
+      <width>20</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{border-image: url(:/QtTrajectoryAnalysis/Resources/exit.png);}
+QPushButton:hover{border-image: url(:/QtTrajectoryAnalysis/Resources/exit-mouse.png);}
+QPushButton:pressed{border-image: url(:/QtTrajectoryAnalysis/Resources/exit-mouse.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QWidget" name="rightWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>110</y>
+      <width>431</width>
+      <height>580</height>
+     </rect>
+    </property>
+    <widget class="Line" name="line">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>30</y>
+       <width>580</width>
+       <height>8</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: #0d4051</string>
+     </property>
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>580</width>
+       <height>39</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(178, 178, 178);
+background-color: #0d4051;
+font: 75 13pt &quot;微软雅黑&quot;; </string>
+     </property>
+     <property name="text">
+      <string>    蒙面人识别信息</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>431</width>
+       <height>540</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QScrollBar:vertical
+{
+    width:25px;
+    background:rgba(0,0,0,0%);
+    margin:0px,0px,0px,0px;
+    padding-top:22px;   
+    padding-bottom:22px;
+}
+QScrollBar::handle:vertical
+{
+    width:25px;
+	background-color: #03242e;
+    border-radius:5px;   
+    min-height:20;
+}
+QScrollBar::sub-line:vertical  
+{
+    height:22px;width:25px;
+	border-image: url(:/QtTrajectoryAnalysis/Resources/uparrow.png);
+    subcontrol-position:top;
+}
+QScrollBar::add-line:vertical{
+    height:22px;width:25px;
+    border-image: url(:/QtTrajectoryAnalysis/Resources/downarrow.png);
+    subcontrol-position:bottom;
+}
+
+QTextBrowser{font: 75 10pt &quot;微软雅黑&quot;; 
+color: rgb(255, 255, 255);
+background-color: #0d4051;
+}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::NoFrame</enum>
+     </property>
+     <property name="verticalScrollBarPolicy">
+      <enum>Qt::ScrollBarAlwaysOn</enum>
+     </property>
+    </widget>
+    <zorder>label_3</zorder>
+    <zorder>textBrowser</zorder>
+    <zorder>line</zorder>
+   </widget>
+   <widget class="QToolButton" name="pBtn_forward">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>638</y>
+      <width>20</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{border-image: url(:/QtTrajectoryAnalysis/Resources/forward.png);}
+QToolButton:hover{border-image: url(:/QtTrajectoryAnalysis/Resources/forward-hover.png);}
+QToolButton:pressed{border-image: url(:/QtTrajectoryAnalysis/Resources/forward-pressed.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="pBtn_backward">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>638</y>
+      <width>20</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QToolButton{border-image: url(:/QtTrajectoryAnalysis/Resources/back.png);}
+QToolButton:hover{border-image: url(:/QtTrajectoryAnalysis/Resources/back-hover.png);}
+QToolButton:pressed{border-image: url(:/QtTrajectoryAnalysis/Resources/backward-pressed.png);}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="qttrajectoryanalysis.qrc"/>
+ </resources>
+ <connections/>
+</ui>

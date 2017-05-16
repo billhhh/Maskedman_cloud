@@ -1,0 +1,34 @@
+<RCC>
+  <qresource prefix="QtTrajectoryAnalysis">
+    <file>Resources/downarrow.png</file>
+    <file>Resources/uparrow.png</file>
+    <file>Resources/back.png</file>
+    <file>Resources/background.png</file>
+    <file>Resources/back-hover.png</file>
+    <file>Resources/backward-pressed.png</file>
+    <file>Resources/bottom.png</file>
+    <file>Resources/bottomOfImage.png</file>
+    <file>Resources/exit.png</file>
+    <file>Resources/exit-mouse.png</file>
+    <file>Resources/forward.png</file>
+    <file>Resources/forward-hover.png</file>
+    <file>Resources/forward-pressed.png</file>
+    <file>Resources/hsplite.png</file>
+    <file>Resources/maskManDetect.ico</file>
+    <file>Resources/maskManDetect.png</file>
+    <file>Resources/maskManDetectLogo.png</file>
+    <file>Resources/maximize.png</file>
+    <file>Resources/maximize-mouse.png</file>
+    <file>Resources/minimize.png</file>
+    <file>Resources/minimize-mouse.png</file>
+    <file>Resources/pause.png</file>
+    <file>Resources/pause-hover.png</file>
+    <file>Resources/pause-pressed.png</file>
+    <file>Resources/play.png</file>
+    <file>Resources/play-hover.png</file>
+    <file>Resources/play-pressed.png</file>
+    <file>Resources/savePath.png</file>
+    <file>Resources/savePath-hover.png</file>
+    <file>Resources/savePath-pressed.png</file>
+  </qresource>
+</RCC>

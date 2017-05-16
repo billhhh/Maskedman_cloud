@@ -1,0 +1,75 @@
+﻿生成启动时间为 2015/5/12 15:50:46。
+     1>项目“E:\Project\service_maskman_recongize\detectMaskMan\detectMaskMan\detectMaskMan.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\detectMaskMan.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\detectMaskMan.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DETECTMASKMAN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AI_Maskman_Detect.cpp algorithmInterface.cpp Controller.cpp lib_maskman_detect.cpp
+         AI_Maskman_Detect.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         algorithmInterface.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         Controller.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>Controller.cpp(51): warning C4101: “staticdata”: 未引用的局部变量
+     1>Controller.cpp(74): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(99): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>Controller.cpp(122): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>Controller.cpp(127): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>Controller.cpp(142): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(145): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(152): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(155): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(160): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(180): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(180): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(247): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(297): warning C4244: “=”: 从“double”转换到“uint”，可能丢失数据
+     1>Controller.cpp(303): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>Controller.cpp(541): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(541): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(545): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(635): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(635): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(635): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(635): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(702): warning C4018: “<=”: 有符号/无符号不匹配
+     1>Controller.cpp(721): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(722): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(723): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(724): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(751): warning C4018: “<”: 有符号/无符号不匹配
+         lib_maskman_detect.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>lib_maskman_detect.cpp(12): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“AlgorithmResult”
+     1>lib_maskman_detect.cpp(16): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“AlgorithmResult”
+     1>lib_maskman_detect.cpp(18): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“AlgorithmResult”
+     1>lib_maskman_detect.cpp(9): warning C4101: “ctrl”: 未引用的局部变量
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Release\detectMaskMan.dll" /INCREMENTAL:NO /NOLOGO IlmImf.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib libwebp.lib ippicvmt.lib opencv_calib3d300.lib opencv_core300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_ts300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib zlib.lib vfw32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\detectMaskMan.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Release\detectMaskMan.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Release\detectMaskMan.lib" /MACHINE:X86 /DLL Release\AI_Maskman_Detect.obj
+         Release\algorithmInterface.obj
+         Release\Controller.obj
+         Release\lib_maskman_detect.obj
+            正在创建库 E:\Project\service_maskman_recongize\QtMaskManRecongize\Release\detectMaskMan.lib 和对象 E:\Project\service_maskman_recongize\QtMaskManRecongize\Release\detectMaskMan.exp
+         正在生成代码
+         已完成代码的生成
+         detectMaskMan.vcxproj -> E:\Project\service_maskman_recongize\QtMaskManRecongize\Release\detectMaskMan.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Release\detectMaskMan.dll;#2" /manifest Release\detectMaskMan.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\detectMaskMan.unsuccessfulbuild”。
+         正在对“Release\detectMaskMan.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\service_maskman_recongize\detectMaskMan\detectMaskMan\detectMaskMan.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:48.60
