@@ -1,0 +1,51 @@
+﻿生成启动时间为 2015/3/25 20:33:45。
+     1>项目“F:\project2010\service_maskman_recongize\QtMaskManRecongize\QtTrajectoryAnalysis\QtTrajectoryAnalysis.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\QtMaskManRecognize.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing qttrajectoryanalysis.h...
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /Ie:\Qt\4.8.6\include /I.\GeneratedFiles\Release /Ie:\Qt\4.8.6\include\QtCore /Ie:\Qt\4.8.6\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Release\moc_qttrajectoryanalysis.cpp main.cpp qttrajectoryanalysis.cpp
+         moc_qttrajectoryanalysis.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+         main.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+         qttrajectoryanalysis.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>qttrajectoryanalysis.cpp(131): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>qttrajectoryanalysis.cpp(135): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>qttrajectoryanalysis.cpp(341): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>qttrajectoryanalysis.cpp(347): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+         正在生成代码...
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project2010\service_maskman_recongize\QtMaskManRecongize\Win32\Release\\QtMaskManRecognize.exe" /NOLOGO /LIBPATH:e:\Qt\4.8.6\lib qtmain.lib QtCore4.lib QtGui4.lib opencv_ts300.lib opencv_world300.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\QtMaskManRecognize.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"F:\project2010\service_maskman_recongize\QtMaskManRecongize\Win32\Release\QtMaskManRecognize.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project2010\service_maskman_recongize\QtMaskManRecongize\Win32\Release\QtMaskManRecognize.lib" /MACHINE:X86 Release\QtMaskManRecognize.res
+         Release\AI_Maskman_Detect.obj
+         Release\algorithmInterface.obj
+         Release\extractThread.obj
+         Release\qrc_qttrajectoryanalysis.obj
+         Release\moc_extractThread.obj
+         Release\moc_qttrajectoryanalysis.obj
+         Release\moc_updateThread.obj
+         Release\moc_waitingprogressbar.obj
+         Release\main.obj
+         Release\qttrajectoryanalysis.obj
+         Release\serviceDll.obj
+         Release\updateThread.obj
+         Release\waitingprogressbar.obj
+         QtTrajectoryAnalysis.vcxproj -> F:\project2010\service_maskman_recongize\QtMaskManRecongize\Win32\Release\QtMaskManRecognize.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\project2010\service_maskman_recongize\QtMaskManRecongize\Win32\Release\\QtMaskManRecognize.exe;#1" /manifest Release\QtMaskManRecognize.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\QtMaskManRecognize.unsuccessfulbuild”。
+         正在对“Release\QtMaskManRecognize.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project2010\service_maskman_recongize\QtMaskManRecongize\QtTrajectoryAnalysis\QtTrajectoryAnalysis.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.13
