@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "image_denoising", "image_denoising\image_denoising.vcxproj", "{E678589E-6025-418A-8DA9-43B66F81BE72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E678589E-6025-418A-8DA9-43B66F81BE72}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E678589E-6025-418A-8DA9-43B66F81BE72}.Debug|Win32.Build.0 = Debug|Win32
+		{E678589E-6025-418A-8DA9-43B66F81BE72}.Release|Win32.ActiveCfg = Release|Win32
+		{E678589E-6025-418A-8DA9-43B66F81BE72}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
