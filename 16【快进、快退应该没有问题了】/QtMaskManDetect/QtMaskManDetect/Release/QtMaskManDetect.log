@@ -1,0 +1,51 @@
+﻿生成启动时间为 2015/3/24 16:38:16。
+     1>项目“E:\Project\QtMaskManDetect\QtMaskManDetect\QtMaskManDetect.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\QtMaskManDetect.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\QtMaskManDetect.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing qtmaskmandetect.h...
+         Uic'ing qtmaskmandetect.ui...
+         Rcc'ing qtmaskmandetect.qrc...
+     1>RCC : warning : No resources in 'E:\Project\QtMaskManDetect\QtMaskManDetect\qtmaskmandetect.qrc'.
+         
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.2\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.2\include\QtCore /ID:\Qt\4.8.2\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AlgorithmInterface\AI_Maskman_Detect.cpp AlgorithmInterface\algorithmInterface.cpp GeneratedFiles\Release\moc_qtmaskmandetect.cpp main.cpp qtmaskmandetect.cpp testDll.cpp
+         AI_Maskman_Detect.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         algorithmInterface.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_qtmaskmandetect.cpp
+         main.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         qtmaskmandetect.cpp
+         testDll.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>testDll.cpp(14): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /ID:\Qt\4.8.2\include /I.\GeneratedFiles\Release /ID:\Qt\4.8.2\include\QtCore /ID:\Qt\4.8.2\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_qtmaskmandetect.cpp
+         qrc_qtmaskmandetect.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\QtMaskManDetect\Win32\Release\\QtMaskManDetect.exe" /NOLOGO /LIBPATH:D:\Qt\4.8.2\lib opencv_ts300.lib opencv_world300.lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\QtMaskManDetect.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\QtMaskManDetect\Win32\Release\QtMaskManDetect.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\QtMaskManDetect\Win32\Release\QtMaskManDetect.lib" /MACHINE:X86 Release\AI_Maskman_Detect.obj
+         Release\algorithmInterface.obj
+         Release\qrc_qtmaskmandetect.obj
+         Release\moc_qtmaskmandetect.obj
+         Release\main.obj
+         Release\qtmaskmandetect.obj
+         Release\testDll.obj
+         QtMaskManDetect.vcxproj -> E:\Project\QtMaskManDetect\Win32\Release\QtMaskManDetect.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Project\QtMaskManDetect\Win32\Release\\QtMaskManDetect.exe;#1" /manifest Release\QtMaskManDetect.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\QtMaskManDetect.unsuccessfulbuild”。
+         正在对“Release\QtMaskManDetect.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\QtMaskManDetect\QtMaskManDetect\QtMaskManDetect.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.80
