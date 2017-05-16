@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="QtTrajectoryAnalysis">
+    <file>Resources/maskManDetect.ico</file>
+    <file>Resources/btn4.jpg</file>
+    <file>Resources/quit.png</file>
+    <file>Resources/background.png</file>
+    <file>Resources/processor_bg.png</file>
+    <file>Resources/camembert.png</file>
+    <file>Resources/check.png</file>
+    <file>Resources/graphique.png</file>
+    <file>Resources/LOGO.png</file>
+    <file>Resources/nocapture.png</file>
+    <file>Resources/openvideo.png</file>
+    <file>Resources/painting.png</file>
+    <file>Resources/photo-manipulation.png</file>
+    <file>Resources/startanalyze.png</file>
+    <file>Resources/stopanalyze.png</file>
+  </qresource>
+</RCC>

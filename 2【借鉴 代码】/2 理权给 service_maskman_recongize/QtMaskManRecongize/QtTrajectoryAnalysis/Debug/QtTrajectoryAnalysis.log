@@ -1,0 +1,83 @@
+﻿生成启动时间为 2015/3/10 14:01:24。
+     1>项目“E:\Project\service_maskman_recongize\QtMaskManRecongize\QtTrajectoryAnalysis\QtTrajectoryAnalysis.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\QtMaskManRecognize.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\QtMaskManRecognize.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         Moc'ing qttrajectoryanalysis.h...
+         Uic'ing qttrajectoryanalysis.ui...
+         Moc'ing waitingprogressbar.h...
+         Moc'ing updateThread.h...
+         Moc'ing extractThread.h...
+         Rcc'ing qttrajectoryanalysis.qrc...
+         Uic'ing waitingprogressbar.ui...
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /Id:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /Id:\Qt\4.8.6\include\QtCore /Id:\Qt\4.8.6\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt extractThread.cpp GeneratedFiles\Debug\moc_extractThread.cpp GeneratedFiles\Debug\moc_qttrajectoryanalysis.cpp GeneratedFiles\Debug\moc_updateThread.cpp GeneratedFiles\Debug\moc_waitingprogressbar.cpp main.cpp qttrajectoryanalysis.cpp serviceDll.cpp updateThread.cpp waitingprogressbar.cpp
+         extractThread.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_extractThread.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_qttrajectoryanalysis.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+         moc_updateThread.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         moc_waitingprogressbar.cpp
+         main.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+         qttrajectoryanalysis.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+         serviceDll.cpp
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         updateThread.cpp
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\Program Files\opencv3.0\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         waitingprogressbar.cpp
+         正在生成代码...
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /Id:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /Id:\Qt\4.8.6\include\QtCore /Id:\Qt\4.8.6\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_qttrajectoryanalysis.cpp
+         qrc_qttrajectoryanalysis.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\QtMaskManRecognize.res" QtMaskManRecognize.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Win32\Debug\\QtMaskManRecognize.exe" /NOLOGO /LIBPATH:d:\Qt\4.8.6\lib /LIBPATH:"E:\Program Files\opencv\build\x86\vc10\lib" qtmaind.lib QtCored4.lib QtGuid4.lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD.lib /MANIFEST /ManifestFile:"Debug\QtMaskManRecognize.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Win32\Debug\QtMaskManRecognize.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Win32\Debug\QtMaskManRecognize.lib" /MACHINE:X86 Debug\QtMaskManRecognize.res
+         Debug\extractThread.obj
+         Debug\moc_extractThread.obj
+         Debug\moc_qttrajectoryanalysis.obj
+         Debug\moc_updateThread.obj
+         Debug\moc_waitingprogressbar.obj
+         Debug\qrc_qttrajectoryanalysis.obj
+         Debug\main.obj
+         Debug\qttrajectoryanalysis.obj
+         Debug\serviceDll.obj
+         Debug\updateThread.obj
+         Debug\waitingprogressbar.obj
+         QtTrajectoryAnalysis.vcxproj -> E:\Project\service_maskman_recongize\QtMaskManRecongize\Win32\Debug\QtMaskManRecognize.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Win32\Debug\\QtMaskManRecognize.exe;#1" /manifest Debug\QtMaskManRecognize.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\QtMaskManRecognize.unsuccessfulbuild”。
+         正在对“Debug\QtMaskManRecognize.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\service_maskman_recongize\QtMaskManRecongize\QtTrajectoryAnalysis\QtTrajectoryAnalysis.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.88

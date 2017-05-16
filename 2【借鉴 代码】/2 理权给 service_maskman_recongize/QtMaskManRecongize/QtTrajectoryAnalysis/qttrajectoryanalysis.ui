@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtTrajectoryAnalysisClass</class>
+ <widget class="QDialog" name="QtTrajectoryAnalysisClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>900</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>QtMaskManRec</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="qttrajectoryanalysis.qrc">
+    <normaloff>:/QtTrajectoryAnalysis/Resources/maskManDetect.ico</normaloff>:/QtTrajectoryAnalysis/Resources/maskManDetect.ico</iconset>
+  </property>
+  <widget class="QWidget" name="widget_background" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>900</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget_background{border-image: url(:/QtTrajectoryAnalysis/Resources/background.png)}</string>
+   </property>
+   <widget class="QProgressBar" name="progress_bar">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>385</y>
+      <width>360</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>10</pointsize>
+      <weight>9</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;微软雅黑&quot;;
+color: #4f4f4f;</string>
+    </property>
+    <property name="value">
+     <number>0</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lEd_OutputFolder">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>415</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;微软雅黑&quot;;
+color: rgb(60, 60, 60);
+background-color: #e4e9e9;</string>
+    </property>
+   </widget>
+   <widget class="QGraphicsView" name="imageView">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>115</y>
+      <width>360</width>
+      <height>270</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>-170</y>
+      <width>111</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 14pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;事件信息：&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="textBrowser">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>115</y>
+      <width>360</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;微软雅黑&quot;;
+color: #4f4f4f;
+background-color: #eeeeee;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::WinPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <property name="verticalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOn</enum>
+    </property>
+    <property name="horizontalScrollBarPolicy">
+     <enum>Qt::ScrollBarAlwaysOff</enum>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pBtn_OutputFolder">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>415</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 9pt &quot;微软雅黑&quot;;
+color: #4f4f4f;
+background-color: #f7a562</string>
+    </property>
+    <property name="text">
+     <string>保存路径</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>32</width>
+      <height>32</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>470</y>
+      <width>201</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::RightToLeft</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 16pt &quot;微软雅黑&quot;;
+color: #4f4f4f;</string>
+    </property>
+    <property name="text">
+     <string>蒙面人检测服务</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pBtn_quit">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>515</y>
+      <width>25</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style:hidden;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="qttrajectoryanalysis.qrc">
+      <normaloff>:/QtTrajectoryAnalysis/Resources/quit.png</normaloff>:/QtTrajectoryAnalysis/Resources/quit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="pBtn_Run">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>450</y>
+      <width>60</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style:hidden;
+font: 75 10pt &quot;微软雅黑&quot;;
+color: #4f4f4f;</string>
+    </property>
+    <property name="text">
+     <string>检测开始</string>
+    </property>
+    <property name="icon">
+     <iconset resource="qttrajectoryanalysis.qrc">
+      <normaloff>:/QtTrajectoryAnalysis/Resources/startanalyze.png</normaloff>:/QtTrajectoryAnalysis/Resources/startanalyze.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextUnderIcon</enum>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="pBtn_Stop">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>450</y>
+      <width>60</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-style:hidden;
+font: 75 10pt &quot;微软雅黑&quot;;
+color: #4f4f4f;</string>
+    </property>
+    <property name="text">
+     <string>检测中止</string>
+    </property>
+    <property name="icon">
+     <iconset resource="qttrajectoryanalysis.qrc">
+      <normaloff>:/QtTrajectoryAnalysis/Resources/stopanalyze.png</normaloff>:/QtTrajectoryAnalysis/Resources/stopanalyze.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>60</width>
+      <height>60</height>
+     </size>
+    </property>
+    <property name="toolButtonStyle">
+     <enum>Qt::ToolButtonTextUnderIcon</enum>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="qttrajectoryanalysis.qrc"/>
+ </resources>
+ <connections/>
+</ui>

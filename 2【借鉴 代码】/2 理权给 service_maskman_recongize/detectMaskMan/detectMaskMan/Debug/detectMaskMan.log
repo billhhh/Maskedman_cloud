@@ -1,0 +1,52 @@
+﻿生成启动时间为 2015/3/10 14:01:25。
+     1>项目“E:\Project\service_maskman_recongize\detectMaskMan\detectMaskMan\detectMaskMan.vcxproj”在节点 3 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\detectMaskMan.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\detectMaskMan.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DETECTMASKMAN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt detect.cpp DetectMasked.cpp
+         DetectMasked.cpp
+     1>d:\program files\opencv3.0\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\program files\opencv3.0\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(82): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(119): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(119): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(174): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(224): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(229): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(447): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(447): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detectmasked.cpp(451): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+         detect.cpp
+     1>d:\program files\opencv3.0\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\program files\opencv3.0\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\project\service_maskman_recongize\detectmaskman\detectmaskman\detect.cpp(12): warning C4101: “detect”: 未引用的局部变量
+         正在生成代码...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\detectMaskMan.dll.embed.manifest.res" Debug\detectMaskMan_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.dll" /INCREMENTAL /NOLOGO IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib ippicvmt.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib vfw32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\detectMaskMan.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.lib" /MACHINE:X86 /DLL Debug\detectMaskMan.dll.embed.manifest.res
+         Debug\detect.obj
+         Debug\DetectMasked.obj
+            正在创建库 E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.lib 和对象 E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.exp
+       Manifest:
+         正在删除文件“Debug\detectMaskMan.dll.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\detectMaskMan.dll.embed.manifest" /manifest Debug\detectMaskMan.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\detectMaskMan.dll.embed.manifest.res" Debug\detectMaskMan_manifest.rc 
+       LinkEmbedManifest:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.dll" /INCREMENTAL /NOLOGO IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib ippicvmt.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib vfw32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\detectMaskMan.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.lib" /MACHINE:X86 /DLL Debug\detectMaskMan.dll.embed.manifest.res
+         Debug\detect.obj
+         Debug\DetectMasked.obj
+            正在创建库 E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.lib 和对象 E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.exp
+         detectMaskMan.vcxproj -> E:\Project\service_maskman_recongize\QtMaskManRecongize\Debug\detectMaskMan.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\detectMaskMan.unsuccessfulbuild”。
+         正在对“Debug\detectMaskMan.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\service_maskman_recongize\detectMaskMan\detectMaskMan\detectMaskMan.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:40.98
