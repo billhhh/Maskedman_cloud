@@ -1,0 +1,159 @@
+﻿生成启动时间为 2015/2/8 21:17:38。
+     1>项目“F:\project2010\servcie_trajectory_analysis\trajectory_analysis\trajectory_analysis\trajectory_analysis.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\trajectory_analysis.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\trajectory_analysis.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D TRAJECTORY_ANALYSIS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AlgorithmInterface\ai_trajectoryAnalysis.cpp AlgorithmInterface\algorithmInterface.cpp dataAnalysis.cpp isodata.cpp lib_trajectory_analysis.cpp pattern.cpp sort.cpp trackSegment.cpp trajectory_analysis.cpp videoTrack.cpp
+         ai_trajectoryAnalysis.cpp
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         algorithmInterface.cpp
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         dataAnalysis.cpp
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>dataAnalysis.cpp(129): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(130): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(131): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(185): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(187): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(188): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(189): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(193): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(194): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(195): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(263): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(265): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(265): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(281): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(283): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(283): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(289): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(294): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(294): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(308): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(308): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(309): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(309): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(310): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>dataAnalysis.cpp(323): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(325): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(338): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(338): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(339): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(339): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(351): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(352): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(352): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(356): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(373): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(375): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(400): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(441): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(443): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(444): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(445): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(449): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(450): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(464): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(503): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(508): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(509): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(509): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(511): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(513): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(513): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(523): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(527): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(530): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>dataAnalysis.cpp(538): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(542): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(552): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>dataAnalysis.cpp(559): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(580): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(583): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(583): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(584): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 参见“itoa”的声明
+     1>dataAnalysis.cpp(585): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(585): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(606): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(618): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(620): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(620): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(622): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(624): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(624): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(641): warning C4018: “<”: 有符号/无符号不匹配
+     1>dataAnalysis.cpp(643): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(643): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>dataAnalysis.cpp(644): warning C4018: “<”: 有符号/无符号不匹配
+         isodata.cpp
+     1>isodata.cpp(166): warning C4018: “<”: 有符号/无符号不匹配
+     1>isodata.cpp(229): warning C4018: “<”: 有符号/无符号不匹配
+     1>isodata.cpp(260): warning C4018: “<”: 有符号/无符号不匹配
+     1>isodata.cpp(411): warning C4244: “参数”: 从“double”转换到“const int”，可能丢失数据
+     1>isodata.cpp(412): warning C4018: “<”: 有符号/无符号不匹配
+     1>isodata.cpp(442): warning C4018: “<”: 有符号/无符号不匹配
+         lib_trajectory_analysis.cpp
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>lib_trajectory_analysis.cpp(12): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“AlgorithmResult”
+     1>lib_trajectory_analysis.cpp(13): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“AlgorithmResult”
+     1>lib_trajectory_analysis.cpp(10): warning C4101: “pTrajectoryAnalysis”: 未引用的局部变量
+     1>lib_trajectory_analysis.cpp(20): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“AlgorithmResult”
+     1>lib_trajectory_analysis.cpp(23): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“AlgorithmResult”
+     1>lib_trajectory_analysis.cpp(24): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“AlgorithmResult”
+     1>lib_trajectory_analysis.cpp(18): warning C4101: “pTrajectoryAnalysis”: 未引用的局部变量
+         pattern.cpp
+         sort.cpp
+     1>sort.cpp(91): warning C4018: “<”: 有符号/无符号不匹配
+         trackSegment.cpp
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>trackSegment.cpp(18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>trackSegment.cpp(18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>trackSegment.cpp(18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>trackSegment.cpp(18): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>trackSegment.cpp(37): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>trackSegment.cpp(42): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+     1>trackSegment.cpp(128): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+         trajectory_analysis.cpp
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         videoTrack.cpp
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>videoTrack.cpp(270): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>videoTrack.cpp(271): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>videoTrack.cpp(321): warning C4244: “/=”: 从“double”转换到“int”，可能丢失数据
+     1>videoTrack.cpp(322): warning C4244: “/=”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Release\trajectory_analysis.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\Program Files\opencv\build\x86\vc10\staticlib" IlmImf.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib libwebp.lib ippicvmt.lib opencv_calib3d300.lib opencv_core300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_ts300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib zlib.lib vfw32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\trajectory_analysis.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Release\trajectory_analysis.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Release\trajectory_analysis.lib" /MACHINE:X86 /DLL Release\ai_trajectoryAnalysis.obj
+         Release\algorithmInterface.obj
+         Release\dataAnalysis.obj
+         Release\isodata.obj
+         Release\lib_trajectory_analysis.obj
+         Release\pattern.obj
+         Release\sort.obj
+         Release\trackSegment.obj
+         Release\trajectory_analysis.obj
+         Release\videoTrack.obj
+            正在创建库 F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Release\trajectory_analysis.lib 和对象 F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Release\trajectory_analysis.exp
+         正在生成代码
+         已完成代码的生成
+         trajectory_analysis.vcxproj -> F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Release\trajectory_analysis.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Release\trajectory_analysis.dll;#2" /manifest Release\trajectory_analysis.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\trajectory_analysis.unsuccessfulbuild”。
+         正在对“Release\trajectory_analysis.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project2010\servcie_trajectory_analysis\trajectory_analysis\trajectory_analysis\trajectory_analysis.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:57.77

@@ -1,0 +1,37 @@
+﻿生成启动时间为 2015/2/8 21:16:50。
+     1>项目“F:\project2010\servcie_trajectory_analysis\trajectory_analysis\trajectory_analysis\trajectory_analysis.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\trajectory_analysis.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D TRAJECTORY_ANALYSIS_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt trajectory_analysis.cpp
+         trajectory_analysis.cpp
+     1>e:\program files\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>e:\program files\opencv\build\include\opencv2\core\mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Debug\trajectory_analysis.dll" /INCREMENTAL /NOLOGO /LIBPATH:"E:\Program Files\opencv\build\x86\vc10\staticlib" IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib ippicvmt.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib vfw32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\trajectory_analysis.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Debug\trajectory_analysis.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Debug\trajectory_analysis.lib" /MACHINE:X86 /DLL Debug\trajectory_analysis.dll.embed.manifest.res
+         Debug\ai_trajectoryAnalysis.obj
+         Debug\algorithmInterface.obj
+         Debug\dataAnalysis.obj
+         Debug\isodata.obj
+         Debug\lib_trajectory_analysis.obj
+         Debug\pattern.obj
+         Debug\sort.obj
+         Debug\trackSegment.obj
+         Debug\trajectory_analysis.obj
+         Debug\videoTrack.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\trajectory_analysis.dll.embed.manifest" /manifest Debug\trajectory_analysis.dll.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         trajectory_analysis.vcxproj -> F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Debug\trajectory_analysis.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\trajectory_analysis.unsuccessfulbuild”。
+         正在对“Debug\trajectory_analysis.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project2010\servcie_trajectory_analysis\trajectory_analysis\trajectory_analysis\trajectory_analysis.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.36

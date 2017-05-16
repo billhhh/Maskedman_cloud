@@ -1,0 +1,46 @@
+﻿生成启动时间为 2015/2/8 21:39:20。
+     1>项目“F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\QtTrajectoryAnalysis\QtTrajectoryAnalysis.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\QtTrajectoryAnalysis.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /Ie:\Qt\4.8.6\include /I.\GeneratedFiles\Debug /Ie:\Qt\4.8.6\include\QtCore /Ie:\Qt\4.8.6\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt qttrajectoryanalysis.cpp
+         qttrajectoryanalysis.cpp
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\program files\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+     1>CL : warning : Inclusion of header files from include/Qt is deprecated.
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Win32\Debug\\QtTrajectoryAnalysis.exe" /NOLOGO /LIBPATH:e:\Qt\4.8.6\lib /LIBPATH:"E:\Program Files\opencv\build\x86\vc10\lib" qtmaind.lib QtCored4.lib QtGuid4.lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMTD.lib /MANIFEST /ManifestFile:"Debug\QtTrajectoryAnalysis.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Win32\Debug\QtTrajectoryAnalysis.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Win32\Debug\QtTrajectoryAnalysis.lib" /MACHINE:X86 Debug\QtTrajectoryAnalysis.res
+         Debug\ai_trajectoryAnalysis.obj
+         Debug\algorithmInterface.obj
+         Debug\analyzeThread.obj
+         Debug\extractThread.obj
+         Debug\moc_analyzeThread.obj
+         Debug\moc_extractThread.obj
+         Debug\moc_qttrajectoryanalysis.obj
+         Debug\moc_updateThread.obj
+         Debug\moc_waitingprogressbar.obj
+         Debug\qrc_qttrajectoryanalysis.obj
+         Debug\main.obj
+         Debug\qttrajectoryanalysis.obj
+         Debug\serviceDll.obj
+         Debug\updateThread.obj
+         Debug\waitingprogressbar.obj
+         LINK : 没有找到 F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Win32\Debug\\QtTrajectoryAnalysis.exe 或上一个增量链接没有生成它；正在执行完全链接
+         QtTrajectoryAnalysis.vcxproj -> F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Win32\Debug\QtTrajectoryAnalysis.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\Win32\Debug\\QtTrajectoryAnalysis.exe;#1" /manifest Debug\QtTrajectoryAnalysis.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\QtTrajectoryAnalysis.unsuccessfulbuild”。
+         正在对“Debug\QtTrajectoryAnalysis.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project2010\servcie_trajectory_analysis\QtTrajectoryAnalysis\QtTrajectoryAnalysis\QtTrajectoryAnalysis.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.05
