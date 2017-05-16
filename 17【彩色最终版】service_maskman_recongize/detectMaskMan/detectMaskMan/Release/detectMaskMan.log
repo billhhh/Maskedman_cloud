@@ -1,0 +1,44 @@
+﻿生成启动时间为 2015/3/24 23:53:09。
+     1>项目“F:\project2010\service_maskman_recongize\detectMaskMan\detectMaskMan\detectMaskMan.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\detectMaskMan.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D DETECTMASKMAN_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Controller.cpp
+         Controller.cpp
+     1>Controller.cpp(52): warning C4101: “staticdata”: 未引用的局部变量
+     1>Controller.cpp(88): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(114): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>Controller.cpp(140): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(143): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(150): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(153): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(158): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>Controller.cpp(176): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(176): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(245): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(294): warning C4244: “=”: 从“double”转换到“uint”，可能丢失数据
+     1>Controller.cpp(300): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 参见“strcpy”的声明
+     1>Controller.cpp(520): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(520): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>Controller.cpp(524): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\project2010\service_maskman_recongize\detectMaskMan\Release\detectMaskMan.dll" /INCREMENTAL:NO /NOLOGO IlmImf.lib libjasper.lib libjpeg.lib libpng.lib libtiff.lib libwebp.lib ippicvmt.lib opencv_calib3d300.lib opencv_core300.lib opencv_features2d300.lib opencv_flann300.lib opencv_highgui300.lib opencv_imgcodecs300.lib opencv_imgproc300.lib opencv_ml300.lib opencv_objdetect300.lib opencv_photo300.lib opencv_shape300.lib opencv_stitching300.lib opencv_superres300.lib opencv_ts300.lib opencv_video300.lib opencv_videoio300.lib opencv_videostab300.lib zlib.lib vfw32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\detectMaskMan.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\project2010\service_maskman_recongize\detectMaskMan\Release\detectMaskMan.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\project2010\service_maskman_recongize\detectMaskMan\Release\detectMaskMan.lib" /MACHINE:X86 /DLL Release\AI_Maskman_Detect.obj
+         Release\algorithmInterface.obj
+         Release\Controller.obj
+         Release\lib_maskman_detect.obj
+            正在创建库 F:\project2010\service_maskman_recongize\detectMaskMan\Release\detectMaskMan.lib 和对象 F:\project2010\service_maskman_recongize\detectMaskMan\Release\detectMaskMan.exp
+         正在生成代码
+         已完成代码的生成
+         detectMaskMan.vcxproj -> F:\project2010\service_maskman_recongize\detectMaskMan\Release\detectMaskMan.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\project2010\service_maskman_recongize\detectMaskMan\Release\detectMaskMan.dll;#2" /manifest Release\detectMaskMan.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\detectMaskMan.unsuccessfulbuild”。
+         正在对“Release\detectMaskMan.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\project2010\service_maskman_recongize\detectMaskMan\detectMaskMan\detectMaskMan.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:23.48
