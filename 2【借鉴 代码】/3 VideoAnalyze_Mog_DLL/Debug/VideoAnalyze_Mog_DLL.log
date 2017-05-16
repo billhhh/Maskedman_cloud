@@ -1,0 +1,64 @@
+﻿生成启动时间为 2015/3/11 16:50:52。
+     1>项目“E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\VideoAnalyze_Mog_DLL\VideoAnalyze_Mog_DLL.vcxproj”在节点 4 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\VideoAnalyze_Mog_DLL.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Debug\VideoAnalyze_Mog_DLL.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VIDEOANALYZE_MOG_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\VideoAnalyze_Mog_DLL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VIDEOANALYZE_MOG_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D VIDEOANALYZE_MOG_DLL_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\VideoAnalyze_Mog_DLL.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt VideoAnalyze_Mog_DLL.cpp
+         VideoAnalyze_Mog_DLL.cpp
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(39): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(40): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(41): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(122): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(123): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(132): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(133): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(180): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(296): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(299): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(305): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(341): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(342): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(342): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(389): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(398): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(408): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(421): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>e:\vs2010project\qt_project\conditionalvideoabstract4.1\videoanalyze_mog_dll\videoanalyze_mog_dll.cpp(254): warning C4715: “VideoAnalyze_Mog::isTheSameRect”: 不是所有的控件路径都返回值
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\VideoAnalyze_Mog_DLL.dll.embed.manifest.res" Debug\VideoAnalyze_Mog_DLL_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.dll" /INCREMENTAL /NOLOGO libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib zlibd.lib IlmImfd.lib opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_video249d.lib opencv_objdetect249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VideoAnalyze_Mog_DLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.lib" /MACHINE:X86 /DLL Debug\VideoAnalyze_Mog_DLL.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+         Debug\VideoAnalyze_Mog_DLL.obj
+            正在创建库 E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.lib 和对象 E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.exp
+       Manifest:
+         正在删除文件“Debug\VideoAnalyze_Mog_DLL.dll.embed.manifest”。
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\VideoAnalyze_Mog_DLL.dll.embed.manifest" /manifest Debug\VideoAnalyze_Mog_DLL.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\VideoAnalyze_Mog_DLL.dll.embed.manifest.res" Debug\VideoAnalyze_Mog_DLL_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.dll" /INCREMENTAL /NOLOGO libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib zlibd.lib IlmImfd.lib opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_video249d.lib opencv_objdetect249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VideoAnalyze_Mog_DLL.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.lib" /MACHINE:X86 /DLL Debug\VideoAnalyze_Mog_DLL.dll.embed.manifest.res
+         Debug\dllmain.obj
+         Debug\stdafx.obj
+         Debug\VideoAnalyze_Mog_DLL.obj
+            正在创建库 E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.lib 和对象 E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.exp
+         VideoAnalyze_Mog_DLL.vcxproj -> E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\Debug\VideoAnalyze_Mog_DLL.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\VideoAnalyze_Mog_DLL.unsuccessfulbuild”。
+         正在对“Debug\VideoAnalyze_Mog_DLL.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\VS2010Project\Qt_Project\ConditionalVideoAbstract4.1\VideoAnalyze_Mog_DLL\VideoAnalyze_Mog_DLL.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.06
