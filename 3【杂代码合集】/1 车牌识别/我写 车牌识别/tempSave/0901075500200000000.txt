@@ -1,0 +1,82 @@
+<!---------------------车牌识别结果--------------------->
+                                                      文件名                                 车牌区域                 车牌号码
+
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0901075500200000000.jpg     区域(x: 979, y: 977, w: 104, h:  33)            蓝牌-粤KKZ528
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0901163400100000000.jpg     区域(x: 521, y: 963, w: 101, h:  29)            蓝牌-粤BK70A9
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0901334300100000000.jpg     区域(x: 682, y: 953, w: 106, h:  32)            黄牌-粤K17855
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0901374300200000000.jpg     区域(x:1278, y: 932, w: 106, h:  38)            蓝牌-粤KM7396
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0901503300200000000.jpg     区域(x:1174, y: 902, w: 106, h:  35)            黄牌-粤K13569
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0901504600200000000.jpg     区域(x:1173, y: 983, w:  96, h:  30)            蓝牌-粤KHH939
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0903058000200000000.jpg     区域(x: 843, y:1014, w: 103, h:  30)            黄牌-粤K19419
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0903058600100000000.jpg     区域(x: 852, y:1072, w: 109, h:  34)            黄牌-粤K19419
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0903330600200000000.jpg     区域(x:1257, y: 946, w: 105, h:  32)            蓝牌-粤KPG656
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0903367300200000000.jpg     区域(x:1138, y: 943, w: 108, h:  32)            蓝牌-粤K91129
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0903473700200000000.jpg     区域(x:1245, y: 954, w:  98, h:  30)            蓝牌-粤KDW266
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0903509600200000000.jpg     区域(x:1181, y: 958, w:  98, h:  31)            蓝牌-粤KEH508
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0904266100200000000.jpg     区域(x:1218, y: 964, w:  96, h:  30)            蓝牌-粤K88370
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0904350700200000000.jpg     区域(x:1129, y: 981, w:  98, h:  28)            蓝牌-粤CBK680
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0905594800200000000.jpg     区域(x:1190, y: 956, w: 103, h:  33)            蓝牌-粤KB3513
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0906198100200000000.jpg     区域(x:1171, y: 876, w: 101, h:  28)            黄牌-粤K14137
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0906380000200000000.jpg     区域(x:1055, y: 974, w: 105, h:  32)            蓝牌-粤KA6550
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0907308500200000000.jpg     区域(x:1176, y: 967, w: 104, h:  29)            蓝牌-粤K98932
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0909582900200000000.jpg     区域(x:1057, y: 944, w: 103, h:  35)            蓝牌-粤KB2875
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0912200900200000000.jpg     区域(x:1187, y: 887, w: 104, h:  29)            黄牌-辽K16075
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0912255400200000000.jpg     区域(x: 921, y: 974, w:  94, h:  30)            蓝牌-粤KCD521
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0912275400200000000.jpg     区域(x:1205, y: 962, w:  99, h:  32)            蓝牌-粤KC5892
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0913113900200000000.jpg     区域(x:1192, y: 982, w: 109, h:  32)            蓝牌-粤KJR998
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0913536000200000000.jpg     区域(x:1097, y: 991, w:  97, h:  31)            蓝牌-粤KMX728
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0914190000200000000.jpg     区域(x:1234, y: 869, w: 105, h:  31)            黄牌-粤K20868
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0914221200200000000.jpg     区域(x:1179, y: 970, w: 102, h:  35)            蓝牌-粤KMF978
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0914234200200000000.jpg     区域(x:1207, y: 961, w: 100, h:  31)            蓝牌-粤KQ1178
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0915202900200000000.jpg     区域(x:1200, y: 963, w: 100, h:  33)            蓝牌-粤KL3990
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0915504200200000000.jpg     区域(x:1165, y: 941, w: 101, h:  31)            蓝牌-粤KA9691
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0915556500200000000.jpg     区域(x:1081, y: 970, w: 103, h:  34)            蓝牌-粤K85366
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0916023200200000000.jpg     区域(x:1194, y: 927, w: 105, h:  32)            蓝牌-粤KA8239
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0916118700200000000.jpg     区域(x:1117, y: 956, w: 102, h:  32)            蓝牌-粤KZR366
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0916135900200000000.jpg     区域(x:1134, y: 929, w: 101, h:  33)            蓝牌-粤K99133
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0916180500200000000.jpg     区域(x:1166, y: 947, w: 104, h:  31)            蓝牌-粤K91295
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0916261500200000000.jpg     区域(x:1157, y: 949, w: 104, h:  33)            蓝牌-粤KB9253
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0916403000200000000.jpg     区域(x:1099, y: 953, w: 105, h:  37)            蓝牌-粤KC9981
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0917359300200000000.jpg     区域(x:1210, y: 965, w: 105, h:  34)            蓝牌-粤G49229
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0917401400200000000.jpg     区域(x:1144, y: 960, w: 105, h:  33)            蓝牌-粤KHF676
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0918021900200000000.jpg     区域(x:1234, y: 929, w: 102, h:  31)            黄牌-粤K15989
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0918116100200000000.jpg     区域(x:1261, y: 942, w: 108, h:  33)            蓝牌-粤KYP332
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0918161600200000000.jpg     区域(x:1178, y: 877, w: 101, h:  30)            黄牌-粤K20148
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0918203300200000000.jpg     区域(x:1218, y: 963, w: 104, h:  32)            蓝牌-粤K90022
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0919098700200000000.jpg     区域(x:1120, y: 983, w:  97, h:  29)            蓝牌-粤K80822
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0919447100200000000.jpg     区域(x:1212, y: 903, w: 114, h:  32)            蓝牌-粤KC0570
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0919551000200000000.jpg     区域(x: 724, y:1067, w: 113, h:  37)            蓝牌-粤KML068
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0920050200100000000.jpg     区域(x: 415, y: 997, w:  99, h:  31)            蓝牌-粤KFP009
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0921209600200000000.jpg     区域(x:1206, y: 971, w: 105, h:  33)            蓝牌-粤KU1788
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0921589800200000000.jpg     区域(x:1206, y: 957, w: 106, h:  30)            蓝牌-川K93117
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0922025900200000000.jpg     区域(x:1150, y: 948, w: 108, h:  33)            蓝牌-粤K94076
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0922143400200000000.jpg     区域(x:1261, y: 880, w: 103, h:  27)            黄牌-粤K16660
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0922369600200000000.jpg     区域(x:1167, y: 933, w: 101, h:  41)            蓝牌-粤G88955
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0923486900200000000.jpg     区域(x:1011, y: 980, w: 110, h:  36)            蓝牌-粤KB8755
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0923491800200000000.jpg     区域(x:1065, y:1007, w: 102, h:  32)            蓝牌-粤K82253
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0923521900200000000.jpg     区域(x:1201, y: 954, w: 106, h:  33)            蓝牌-粤KA0585
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0924251400200000000.jpg     区域(x:1100, y: 945, w: 107, h:  34)            蓝牌-粤KC8310
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0924266600100000000.jpg     区域(x: 477, y: 967, w: 102, h:  32)            蓝牌-粤KTJ869
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0924370500200000000.jpg     区域(x:1300, y: 953, w: 108, h:  37)            蓝牌-粤KQT099
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0925384400200000000.jpg     区域(x:1180, y: 957, w:  97, h:  29)            蓝牌-粤K15956
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0925511400200000000.jpg     区域(x:1246, y: 961, w:  98, h:  28)            蓝牌-京K58159
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0926123300200000000.jpg     区域(x:1124, y: 946, w: 103, h:  35)            蓝牌-粤K93861
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0927552400200000000.jpg     区域(x:1155, y: 933, w: 108, h:  32)            蓝牌-粤KRR333
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0928092300200000000.jpg     区域(x: 838, y:1000, w: 112, h:  40)            蓝牌-粤AY500S
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0928236400100000000.jpg     区域(x: 606, y: 958, w: 106, h:  34)            蓝牌-粤KH3607
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0929447800200000000.jpg     区域(x:1220, y: 968, w: 111, h:  39)            蓝牌-粤KDN799
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0930253000200000000.jpg     区域(x:1192, y: 931, w:  96, h:  41)            蓝牌-粤KJ7817
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0940499100200000000.jpg     区域(x:1258, y: 907, w: 101, h:  33)            黄牌-粤KK4458
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0946435500200000000.jpg     区域(x:1236, y: 951, w: 103, h:  32)            蓝牌-粤K0A313
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0948462200200000000.jpg     区域(x:1163, y: 904, w: 106, h:  36)            蓝牌-粤KC1680
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0953062800200000000.jpg     区域(x:1183, y: 942, w: 108, h:  38)            蓝牌-粤KEL229
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0953236200200000000.jpg     区域(x:1239, y: 930, w: 103, h:  35)            蓝牌-皖JA4717
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0953319900200000000.jpg     区域(x:1185, y: 910, w: 102, h:  35)            蓝牌-粤KH9672
+C:\Users\yuanganzhao\Desktop\车牌识别\data\0956302300200000000.jpg     区域(x:1289, y: 944, w: 106, h:  37)            蓝牌-京K44786
+C:\Users\yuanganzhao\Desktop\车牌识别\data\2122203900200000000.jpg     区域(x:1191, y: 916, w:  95, h:  30)            黄牌-粤K11663
+C:\Users\yuanganzhao\Desktop\车牌识别\data\2138061200200000000.jpg     区域(x:1156, y: 932, w: 106, h:  32)            蓝牌-粤KKT538
+C:\Users\yuanganzhao\Desktop\车牌识别\data\2142135900200000000.jpg     区域(x:1213, y: 915, w:  98, h:  30)            黄牌-粤K16530
+C:\Users\yuanganzhao\Desktop\车牌识别\data\2150134600200000000.jpg     区域(x:1082, y: 962, w: 106, h:  31)            蓝牌-粤KGE911
+C:\Users\yuanganzhao\Desktop\车牌识别\data\2153525600200000000.jpg     区域(x:1169, y: 910, w:  96, h:  28)            黄牌-粤KP7883
+C:\Users\yuanganzhao\Desktop\车牌识别\data\2153537500200000000.jpg     区域(x:1165, y: 939, w: 104, h:  30)            黄牌-粤KP6917
+C:\Users\yuanganzhao\Desktop\车牌识别\data\2202114800300000000.jpg     区域(x: 446, y: 970, w:  71, h:  24)             蓝牌-粤GUB78
