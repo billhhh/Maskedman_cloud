@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/5/8 19:49:28。
+     1>项目“E:\烟火检测\flameDetect\detectMaskMan\detectMaskMan.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\flameDetect.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\software\visual studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D DETECTMASKMAN_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\flameDetect\main.cpp AI_Flame_Detect.cpp Controller.cpp algorithmInterface.cpp lib_flame_detect.cpp
+         lib_flame_detect.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“lib_flame_detect.cpp”: No such file or directory
+         algorithmInterface.cpp
+     1>e:\烟火检测\flamedetect\detectmaskman\algorithminterface.cpp(1): fatal error C1083: 无法打开包括文件:“algorithmInterface.h”: No such file or directory
+         Controller.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“Controller.cpp”: No such file or directory
+         AI_Flame_Detect.cpp
+     1>c1xx : fatal error C1083: 无法打开源文件:“AI_Flame_Detect.cpp”: No such file or directory
+         main.cpp
+     1>e:\烟火检测\flamedetect\flamedetect\main.cpp(33): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\visual studio 2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\烟火检测\flamedetect\flamedetect\main.cpp(34): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\visual studio 2010\vc\include\string.h(105) : 参见“strcpy”的声明
+         正在生成代码...
+     1>已完成生成项目“E:\烟火检测\flameDetect\detectMaskMan\detectMaskMan.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.82

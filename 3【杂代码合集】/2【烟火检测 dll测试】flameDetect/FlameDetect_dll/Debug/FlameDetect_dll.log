@@ -1,0 +1,40 @@
+﻿生成启动时间为 2015/5/9 12:51:35。
+     1>项目“E:\烟火检测\flameDetect\FlameDetect_dll\FlameDetect_dll.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\FlameDetect_dll.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\software\visual studio 2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Controller.cpp
+         Controller.cpp
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(38): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(91): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(92): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(93): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(124): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\visual studio 2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(148): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“ForwardResult”
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(243): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\visual studio 2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(250): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(329): warning C4101: “temp”: 未引用的局部变量
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(379): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(394): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\visual studio 2010\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(501): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\software\visual studio 2010\vc\include\string.h(110) : 参见“strcat”的声明
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(507): warning C4244: “=”: 从“double”转换到“unsigned int”，可能丢失数据
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(541): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\烟火检测\flamedetect\flamedetect_dll\controller.cpp(596): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+       Link:
+         D:\software\visual studio 2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\烟火检测\flameDetect\Debug\FlameDetect_dll.dll" /INCREMENTAL /NOLOGO /LIBPATH:D:\software\opencv3.0\opencv\build\x86\vc10\staticlib IlmImfd.lib libjasperd.lib libjpegd.lib libpngd.lib libtiffd.lib libwebpd.lib ippicvmt.lib opencv_calib3d300d.lib opencv_core300d.lib opencv_features2d300d.lib opencv_flann300d.lib opencv_highgui300d.lib opencv_imgcodecs300d.lib opencv_imgproc300d.lib opencv_ml300d.lib opencv_objdetect300d.lib opencv_photo300d.lib opencv_shape300d.lib opencv_stitching300d.lib opencv_superres300d.lib opencv_ts300d.lib opencv_video300d.lib opencv_videoio300d.lib opencv_videostab300d.lib zlibd.lib vfw32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"E:\烟火检测\flameDetect\Debug\FlameDetect_dll.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\烟火检测\flameDetect\Debug\FlameDetect_dll.lib" /MACHINE:X86 /DLL Debug\AI_Flame_Detect.obj
+         Debug\algorithmInterface.obj
+         Debug\Controller.obj
+         Debug\lib_flame_detect.obj
+         FlameDetect_dll.vcxproj -> E:\烟火检测\flameDetect\Debug\FlameDetect_dll.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\FlameDetect_dll.unsuccessfulbuild”。
+         正在对“Debug\FlameDetect_dll.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\烟火检测\flameDetect\FlameDetect_dll\FlameDetect_dll.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.62
