@@ -1,0 +1,88 @@
+﻿生成启动时间为 2015/5/15 13:45:59。
+     1>项目“E:\Project\licensePlateIdentify\licensePlateIdentify\licensePlateIdentify.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Release\licensePlateIdentify.lastbuildstate”。
+       InitializeBuildStatus:
+         正在创建“Release\licensePlateIdentify.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt AI_LicensePlate_Identify.cpp algorithmInterface.cpp core\chars_identify.cpp core\chars_recognise.cpp core\chars_segment.cpp core\features.cpp core\plate_detect.cpp core\plate_judge.cpp core\plate_locate.cpp core\plate_recognize.cpp lib_licensePlateIdentify.cpp licensePlateIdenify.cpp main.cpp
+         AI_LicensePlate_Identify.cpp
+         algorithmInterface.cpp
+         chars_identify.cpp
+     1>core\chars_identify.cpp(10): warning C4005: “NDEBUG”: 宏重定义
+                 命令行参数: 参见前面的“NDEBUG”定义
+     1>core\chars_identify.cpp(83): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+         chars_recognise.cpp
+     1>core\chars_recognise.cpp(46): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(909) : 参见“itoa”的声明
+         chars_segment.cpp
+     1>core\chars_segment.cpp(8): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>core\chars_segment.cpp(9): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>core\chars_segment.cpp(30): warning C4305: “初始化”: 从“double”到“float”截断
+     1>core\chars_segment.cpp(34): warning C4305: “初始化”: 从“double”到“float”截断
+     1>core\chars_segment.cpp(37): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(39): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(57): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(58): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(147): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(237): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(250): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(274): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(301): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(307): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(309): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(311): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(313): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(316): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(325): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(326): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(327): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>core\chars_segment.cpp(328): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+     1>core\chars_segment.cpp(331): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(343): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>core\chars_segment.cpp(362): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(377): warning C4018: “<”: 有符号/无符号不匹配
+     1>core\chars_segment.cpp(401): warning C4018: “<”: 有符号/无符号不匹配
+         features.cpp
+     1>core\features.cpp(42): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+         plate_detect.cpp
+         plate_judge.cpp
+         plate_locate.cpp
+     1>core\plate_locate.cpp(8): warning C4305: “初始化”: 从“double”到“const float”截断
+     1>core\plate_locate.cpp(37): warning C4305: “参数”: 从“double”到“float”截断
+     1>core\plate_locate.cpp(71): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>core\plate_locate.cpp(249): warning C4018: “<”: 有符号/无符号不匹配
+         plate_recognize.cpp
+         lib_licensePlateIdentify.cpp
+     1>lib_licensePlateIdentify.cpp(9): warning C4101: “pLicensePlateIdentify”: 未引用的局部变量
+     1>lib_licensePlateIdentify.cpp(17): warning C4101: “pLicensePlateIdentify”: 未引用的局部变量
+     1>lib_licensePlateIdentify.cpp(25): warning C4101: “pLicensePlateIdentify”: 未引用的局部变量
+         licensePlateIdenify.cpp
+         main.cpp
+     1>main.cpp(31): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Project\licensePlateIdentify\Release\licensePlateIdentify.exe" /INCREMENTAL:NO /NOLOGO opencv_calib3d246.lib opencv_contrib246.lib opencv_core246.lib opencv_features2d246.lib opencv_flann246.lib opencv_gpu246.lib opencv_haartraining_engine.lib opencv_highgui246.lib opencv_imgproc246.lib opencv_legacy246.lib opencv_ml246.lib opencv_nonfree246.lib opencv_objdetect246.lib opencv_ocl246.lib opencv_photo246.lib opencv_stitching246.lib opencv_superres246.lib opencv_ts246.lib opencv_video246.lib opencv_videostab246.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Project\licensePlateIdentify\Release\licensePlateIdentify.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Project\licensePlateIdentify\Release\licensePlateIdentify.lib" /MACHINE:X86 /SAFESEH Release\AI_LicensePlate_Identify.obj
+         Release\algorithmInterface.obj
+         Release\chars_identify.obj
+         Release\chars_recognise.obj
+         Release\chars_segment.obj
+         Release\features.obj
+         Release\plate_detect.obj
+         Release\plate_judge.obj
+         Release\plate_locate.obj
+         Release\plate_recognize.obj
+         Release\lib_licensePlateIdentify.obj
+         Release\licensePlateIdenify.obj
+         Release\main.obj
+            正在创建库 E:\Project\licensePlateIdentify\Release\licensePlateIdentify.lib 和对象 E:\Project\licensePlateIdentify\Release\licensePlateIdentify.exp
+         正在生成代码
+         已完成代码的生成
+         licensePlateIdentify.vcxproj -> E:\Project\licensePlateIdentify\Release\licensePlateIdentify.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\licensePlateIdentify.unsuccessfulbuild”。
+         正在对“Release\licensePlateIdentify.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Project\licensePlateIdentify\licensePlateIdentify\licensePlateIdentify.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:28.88
