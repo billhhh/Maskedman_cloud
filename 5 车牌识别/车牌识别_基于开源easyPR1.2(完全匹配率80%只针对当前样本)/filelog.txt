@@ -1,0 +1,151 @@
+timer stop, elapsed 32.974000  end sec
+timer stop, elapsed 36.554000  蓝牌:川A88888 sec
+timer stop, elapsed 36.556000  蓝牌:宁J11A88 sec
+timer stop, elapsed 36.558000  end D:\车牌\1.bmp ....不相同 sec
+timer stop, elapsed 36.567000  end sec
+timer stop, elapsed 41.361000  蓝牌:川A88888 sec
+timer stop, elapsed 41.365000  蓝牌:宁J11A88 sec
+timer stop, elapsed 41.368000  end D:\车牌\1.jpg ....不相同 sec
+timer stop, elapsed 41.381000  end sec
+timer stop, elapsed 46.377000  蓝牌:粤B0K999 sec
+timer stop, elapsed 46.381000  蓝牌:粤B0K999 sec
+timer stop, elapsed 46.384000  end D:\车牌\2.bmp ....不相同 sec
+timer stop, elapsed 46.395000  end sec
+timer stop, elapsed 55.967000  蓝牌:贵VE005J sec
+timer stop, elapsed 55.970000  蓝牌:鲁VE0050 sec
+timer stop, elapsed 55.973000  end D:\车牌\3.jpg ....不相同 sec
+timer stop, elapsed 55.984000  end sec
+timer stop, elapsed 73.046000  蓝牌:浙CU9059 sec
+timer stop, elapsed 73.049000  蓝牌:浙CU9059 sec
+timer stop, elapsed 73.052000  蓝牌:浙CU9059 sec
+timer stop, elapsed 73.056000  蓝牌:川A00591 sec
+timer stop, elapsed 73.059000  end D:\车牌\4.jpg ....不相同 sec
+timer stop, elapsed 73.070000  end sec
+timer stop, elapsed 79.552000  蓝牌:闽FA88B0 sec
+timer stop, elapsed 79.556000  end D:\车牌\5.jpg ....不相同 sec
+timer stop, elapsed 79.566000  end sec
+timer stop, elapsed 101.491000  蓝牌:津GA8266 sec
+timer stop, elapsed 101.495000  蓝牌:青A82661 sec
+timer stop, elapsed 101.498000  end D:\车牌\6.bmp ....不相同 sec
+timer stop, elapsed 101.508000  end sec
+timer stop, elapsed 113.097000  蓝牌:晋E66666 sec
+timer stop, elapsed 113.100000  蓝牌:晋E66666 sec
+timer stop, elapsed 113.103000  end D:\车牌\7.jpg ....不相同 sec
+timer stop, elapsed 113.145000  end sec
+timer stop, elapsed 120.406000  蓝牌:京H99999 sec
+timer stop, elapsed 120.410000  蓝牌:琼H99999 sec
+timer stop, elapsed 120.413000  end D:\车牌\8.jpg ....不相同 sec
+timer stop, elapsed 120.426000  end sec
+timer stop, elapsed 123.462000  蓝牌:鄂A833S8 sec
+timer stop, elapsed 123.465000  蓝牌:贵A833S8 sec
+timer stop, elapsed 123.468000  end D:\车牌\9.jpg ....不相同 sec
+timer stop, elapsed 123.479000  end sec
+timer stop, elapsed 135.989000  蓝牌:琼A88888 sec
+timer stop, elapsed 135.992000  蓝牌:琼A88888 sec
+timer stop, elapsed 135.995000  蓝牌:赣A88888 sec
+timer stop, elapsed 136.001000  end D:\车牌\10.jpg ....不相同 sec
+timer stop, elapsed 136.008000  end sec
+timer stop, elapsed 148.846000  蓝牌:京P368M9 sec
+timer stop, elapsed 148.851000  蓝牌:京P368M9 sec
+timer stop, elapsed 148.854000  end D:\车牌\11.jpg ....不相同 sec
+timer stop, elapsed 148.867000  end sec
+timer stop, elapsed 152.819000  蓝牌:闽ADK138 sec
+timer stop, elapsed 152.824000  蓝牌:闽ADK138 sec
+timer stop, elapsed 152.826000  end D:\车牌\12.jpg ....不相同 sec
+timer stop, elapsed 152.836000  end sec
+timer stop, elapsed 155.548000  蓝牌:京P73H82 sec
+timer stop, elapsed 155.550000  蓝牌:京P73H82 sec
+timer stop, elapsed 155.553000  end D:\车牌\13.jpg ....不相同 sec
+timer stop, elapsed 155.565000  end sec
+timer stop, elapsed 161.939000  蓝牌:黑A1R272 sec
+timer stop, elapsed 161.942000  蓝牌:黑A1R272 sec
+timer stop, elapsed 161.946000  end D:\车牌\14.jpg ....不相同 sec
+timer stop, elapsed 161.979000  end sec
+timer stop, elapsed 178.833000  蓝牌:京P368M9 sec
+timer stop, elapsed 178.836000  蓝牌:京P368M9 sec
+timer stop, elapsed 178.840000  end D:\车牌\11.jpg ....不相同 sec
+timer stop, elapsed 178.856000  end sec
+timer stop, elapsed 187.782000  蓝牌:粤B0K999 sec
+timer stop, elapsed 187.785000  蓝牌:粤B0K999 sec
+timer stop, elapsed 187.787000  end D:\车牌\2.bmp ....不相同 sec
+timer stop, elapsed 187.796000  end sec
+timer stop, elapsed 196.421000  蓝牌:贵VE0055 sec
+timer stop, elapsed 196.427000  蓝牌:川VE0000 sec
+timer stop, elapsed 196.431000  蓝牌:鲁VE0050 sec
+timer stop, elapsed 196.434000  蓝牌:川A00001 sec
+timer stop, elapsed 196.437000  end D:\车牌\3.bmp ....不相同 sec
+timer stop, elapsed 196.441000  end sec
+timer stop, elapsed 206.955000  蓝牌:贵VE005J sec
+timer stop, elapsed 206.958000  蓝牌:鲁VE0050 sec
+timer stop, elapsed 206.961000  end D:\车牌\3.jpg ....不相同 sec
+timer stop, elapsed 206.971000  end sec
+timer stop, elapsed 210.818000  蓝牌:浙CU9059 sec
+timer stop, elapsed 210.822000  蓝牌:浙CU9059 sec
+timer stop, elapsed 210.825000  蓝牌:浙CU9059 sec
+timer stop, elapsed 210.828000  蓝牌:川A00591 sec
+timer stop, elapsed 210.831000  end D:\车牌\4.jpg ....不相同 sec
+timer stop, elapsed 210.836000  end sec
+timer stop, elapsed 215.792000  蓝牌:闽FA88B0 sec
+timer stop, elapsed 215.795000  end D:\车牌\5.jpg ....不相同 sec
+timer stop, elapsed 215.805000  end sec
+timer stop, elapsed 236.658000  蓝牌:津GA8266 sec
+timer stop, elapsed 236.661000  蓝牌:青A82661 sec
+timer stop, elapsed 236.664000  end D:\车牌\6.bmp ....不相同 sec
+timer stop, elapsed 236.674000  end sec
+timer stop, elapsed 238.707000  蓝牌:津GA8266 sec
+timer stop, elapsed 238.711000  蓝牌:青A82661 sec
+timer stop, elapsed 238.714000  end D:\车牌\6.jpg ....不相同 sec
+timer stop, elapsed 238.724000  end sec
+timer stop, elapsed 248.715000  蓝牌:晋E66666 sec
+timer stop, elapsed 248.718000  蓝牌:晋E66666 sec
+timer stop, elapsed 248.721000  end D:\车牌\7.jpg ....不相同 sec
+timer stop, elapsed 248.732000  end sec
+timer stop, elapsed 254.205000  蓝牌:京H99999 sec
+timer stop, elapsed 254.208000  蓝牌:琼H99999 sec
+timer stop, elapsed 254.211000  end D:\车牌\8.jpg ....不相同 sec
+timer stop, elapsed 254.223000  end sec
+timer stop, elapsed 258.730000  蓝牌:鄂A833S8 sec
+timer stop, elapsed 258.733000  蓝牌:贵A833S8 sec
+timer stop, elapsed 258.736000  end D:\车牌\9.jpg ....不相同 sec
+timer stop, elapsed 258.748000  end sec
+timer stop, elapsed 266.213000  蓝牌:京H99999 sec
+timer stop, elapsed 266.216000  蓝牌:琼H99999 sec
+timer stop, elapsed 266.219000  end D:\车牌\8.jpg ....不相同 sec
+timer stop, elapsed 266.231000  end sec
+timer stop, elapsed 266.724000  蓝牌:晋E66666 sec
+timer stop, elapsed 266.727000  蓝牌:晋E66666 sec
+timer stop, elapsed 266.730000  end D:\车牌\7.jpg ....不相同 sec
+timer stop, elapsed 266.737000  end sec
+timer stop, elapsed 267.391000  蓝牌:京H99999 sec
+timer stop, elapsed 267.394000  蓝牌:琼H99999 sec
+timer stop, elapsed 267.397000  end D:\车牌\8.jpg ....不相同 sec
+timer stop, elapsed 267.411000  end sec
+timer stop, elapsed 267.864000  蓝牌:鄂A833S8 sec
+timer stop, elapsed 267.867000  蓝牌:贵A833S8 sec
+timer stop, elapsed 267.870000  end D:\车牌\9.jpg ....不相同 sec
+timer stop, elapsed 267.881000  end sec
+timer stop, elapsed 268.672000  蓝牌:京H99999 sec
+timer stop, elapsed 268.675000  蓝牌:琼H99999 sec
+timer stop, elapsed 268.679000  end D:\车牌\8.jpg ....不相同 sec
+timer stop, elapsed 268.691000  end sec
+timer stop, elapsed 269.190000  蓝牌:晋E66666 sec
+timer stop, elapsed 269.194000  蓝牌:晋E66666 sec
+timer stop, elapsed 269.197000  end D:\车牌\7.jpg ....不相同 sec
+timer stop, elapsed 269.204000  end sec
+timer stop, elapsed 269.822000  蓝牌:京H99999 sec
+timer stop, elapsed 269.825000  蓝牌:琼H99999 sec
+timer stop, elapsed 269.828000  end D:\车牌\8.jpg ....不相同 sec
+timer stop, elapsed 269.838000  end sec
+timer stop, elapsed 270.268000  蓝牌:鄂A833S8 sec
+timer stop, elapsed 270.271000  蓝牌:贵A833S8 sec
+timer stop, elapsed 270.274000  end D:\车牌\9.jpg ....不相同 sec
+timer stop, elapsed 270.280000  end sec
+timer stop, elapsed 273.657000  蓝牌:琼A88888 sec
+timer stop, elapsed 273.660000  蓝牌:琼A88888 sec
+timer stop, elapsed 273.663000  蓝牌:赣A88888 sec
+timer stop, elapsed 273.667000  end D:\车牌\10.jpg ....不相同 sec
+timer stop, elapsed 273.673000  end sec
+timer stop, elapsed 277.528000  蓝牌:京P368M9 sec
+timer stop, elapsed 277.531000  蓝牌:京P368M9 sec
+timer stop, elapsed 277.534000  end D:\车牌\11.jpg ....不相同 sec
+timer stop, elapsed 277.549000  end sec
